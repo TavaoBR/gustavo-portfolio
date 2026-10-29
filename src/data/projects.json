@@ -1,0 +1,584 @@
+[
+  {
+    "id": "glow-up-connect",
+    "slug": "glow-up-connect",
+    "featured": true,
+    "category": "saas",
+    "title": "Glow Up Connect — SaaS de Agendamentos",
+    "role": {
+      "pt": "Arquiteto & Desenvolvedor Full Stack",
+      "en": "Architect & Full Stack Developer"
+    },
+    "period": "2024",
+    "shortDescription": {
+      "pt": "SaaS de agendamentos e CRM desenvolvido em ASP.NET Core .NET 8 com Clean Architecture e frontend em Vue 3 + TypeScript.",
+      "en": "Scheduling and CRM SaaS platform built with ASP.NET Core .NET 8, Clean Architecture, and Vue 3 + TypeScript."
+    },
+    "fullDescription": {
+      "pt": "API em ASP.NET Core com Clean Architecture, Entity Framework Core com MySQL, autenticação JWT com refresh token, permissões por perfil e suíte de testes com xUnit, Moq e FluentAssertions. Frontend moderno em Vue 3 + TypeScript, Pinia, Tailwind CSS e deploy automatizado em containers Docker no Railway.",
+      "en": "ASP.NET Core API following Clean Architecture, Entity Framework Core with MySQL, JWT authentication with refresh token, role-based permissions, and automated testing with xUnit, Moq, and FluentAssertions. Modern frontend in Vue 3 + TypeScript, Pinia, Tailwind CSS, and containerized Docker deployment on Railway."
+    },
+    "challenge": {
+      "pt": "Estruturar uma plataforma de agendamentos com regras de negócio desacopladas do framework, garantindo integridade de permissões e segurança na renovação de sessões.",
+      "en": "Architecting a scheduling platform with business rules decoupled from the web framework, ensuring permission integrity and secure session renewal."
+    },
+    "solution": {
+      "pt": "Aplicação de Clean Architecture e DDD, isolando entidades de domínio e casos de uso. Implementação de JWT com refresh tokens persistidos e testes automatizados.",
+      "en": "Applied Clean Architecture and DDD principles, isolating domain entities and use cases. Implemented JWT with persisted refresh tokens and robust automated testing."
+    },
+    "metrics": [
+      {
+        "value": "Clean Arch",
+        "label": {
+          "pt": "Arquitetura em Camadas (DDD)",
+          "en": "Layered Architecture (DDD)"
+        }
+      },
+      {
+        "value": "xUnit + Moq",
+        "label": {
+          "pt": "Testes de Domínio & Integração",
+          "en": "Domain & Integration Tests"
+        }
+      },
+      {
+        "value": "Docker",
+        "label": {
+          "pt": "Deploy Automatizado no Railway",
+          "en": "Automated Railway Deploy"
+        }
+      }
+    ],
+    "stack": [
+      "C#",
+      ".NET 8",
+      "ASP.NET Core",
+      "Entity Framework Core",
+      "Vue.js 3",
+      "TypeScript",
+      "Pinia",
+      "Tailwind CSS",
+      "MySQL",
+      "Docker",
+      "xUnit",
+      "Railway"
+    ],
+    "links": {
+      "github": "https://github.com/Start-up-2-0/glow-up-connect-api"
+    }
+  },
+  {
+    "id": "deltech-pix",
+    "slug": "deltech-pix-engine",
+    "featured": true,
+    "category": "fintech",
+    "title": "del.tech — Core Financeiro & PIX Engine",
+    "role": {
+      "pt": "Desenvolvedor Full Stack IV",
+      "en": "Full Stack IV Engineer"
+    },
+    "period": "jul/2025 – mai/2026",
+    "company": "del.tech",
+    "location": "Aracaju, SE",
+    "shortDescription": {
+      "pt": "Integrações com Mercado Pago e Delfinance para PIX, boletos, empréstimos e conciliação financeira automatizada (+1M de transações PIX).",
+      "en": "Financial integrations with Mercado Pago and Delfinance for PIX, payment slips, loans, and automated reconciliation (+1M PIX transactions)."
+    },
+    "fullDescription": {
+      "pt": "Desenvolvimento de plataformas SaaS multi-tenant e integrações com Mercado Pago e Delfinance para liquidação instantânea de PIX, boletos, esteiras de empréstimo e conciliação bancária automatizada. Processamento assíncrono e listeners de webhooks com Redis, garantindo entrega confiável e idempotência de eventos críticos. Backend estruturado em Symfony e Node.js com Service Layer, Repository Pattern, DTOs e SOLID.",
+      "en": "Development of multi-tenant SaaS platforms and integrations with Mercado Pago and Delfinance for instant PIX liquidation, payment slips, loan pipelines, and automated bank reconciliation. Asynchronous processing and webhook listeners with Redis, ensuring reliable delivery and idempotency for critical events. Backend in Symfony and Node.js with Service Layer, Repository Pattern, DTOs, and SOLID principles."
+    },
+    "challenge": {
+      "pt": "Concorrência de webhooks duplicados e necessidade de conciliação financeira automatizada sem duplicidade de créditos ou saldo.",
+      "en": "High-concurrency webhook duplicates and the need for automated financial reconciliation with zero double-crediting or balance divergence."
+    },
+    "solution": {
+      "pt": "Implementação de chaveamento de idempotência distribuída no Redis, service layer desacoplada e pipelines de CI/CD com GitHub Actions e Docker.",
+      "en": "Implemented distributed idempotency keys in Redis, decoupled service layer, and automated CI/CD pipelines with GitHub Actions and Docker."
+    },
+    "metrics": [
+      {
+        "value": "+1,000,000",
+        "label": {
+          "pt": "Transações PIX Processadas",
+          "en": "PIX Transactions Processed"
+        }
+      },
+      {
+        "value": "100%",
+        "label": {
+          "pt": "Idempotência & Conciliação",
+          "en": "Idempotency & Reconciliation"
+        }
+      },
+      {
+        "value": "Zero",
+        "label": {
+          "pt": "Concorrência em Webhooks",
+          "en": "Webhook Race Conditions"
+        }
+      }
+    ],
+    "stack": [
+      "PHP 8",
+      "Symfony",
+      "Node.js",
+      "Vue.js",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "Docker",
+      "GitHub Actions"
+    ]
+  },
+  {
+    "id": "payflow",
+    "slug": "payflow-checkout",
+    "featured": true,
+    "category": "fintech",
+    "title": "PayFlow Checkout — SaaS de Checkout & Pagamentos",
+    "role": {
+      "pt": "Desenvolvedor Full Stack (.NET 8 & Angular)",
+      "en": "Full Stack Developer (.NET 8 & Angular)"
+    },
+    "period": "2024",
+    "shortDescription": {
+      "pt": "Plataforma SaaS de checkout transparente e processamento de pagamentos desenvolvida em .NET 8 LTS com frontend moderno em Angular 21 Standalone.",
+      "en": "Transparent checkout and payment processing SaaS platform built with .NET 8 LTS and modern Angular 21 Standalone frontend."
+    },
+    "fullDescription": {
+      "pt": "Solução completa de checkout para pagamentos online com foco em alta taxa de conversão e segurança transacional. Backend construído em C# com ASP.NET Core .NET 8 LTS, arquitetura desacoplada e persistência em MySQL 8. Interface responsiva e performática em Angular 21 Standalone Components com estilização em Tailwind CSS.",
+      "en": "Comprehensive online payment checkout platform designed for high conversion and transactional security. Backend engineered in C# with ASP.NET Core .NET 8 LTS, decoupled architecture, and MySQL 8 persistence. Fast, responsive frontend using Angular 21 Standalone Components styled with Tailwind CSS."
+    },
+    "challenge": {
+      "pt": "Garantir velocidade extrema no fluxo de pagamento, tolerância a falhas na comunicação com gateways e interface de checkout sem fricção.",
+      "en": "Ensuring extreme speed in the payment pipeline, gateway communication fault-tolerance, and frictionless checkout UI."
+    },
+    "solution": {
+      "pt": "Utilização do .NET 8 LTS para alto throughput de requisições, modelagem de DTOs e validações rigorosas de payload com Angular Standalone.",
+      "en": "Leveraged .NET 8 LTS for high request throughput, clean DTO modeling, and strict payload validation with Angular Standalone."
+    },
+    "metrics": [
+      {
+        "value": ".NET 8 LTS",
+        "label": {
+          "pt": "Core Backend em C#",
+          "en": "Core C# Backend"
+        }
+      },
+      {
+        "value": "Angular 21",
+        "label": {
+          "pt": "Standalone Components",
+          "en": "Standalone Components"
+        }
+      },
+      {
+        "value": "Checkout",
+        "label": {
+          "pt": "Alta Conversão & Segurança",
+          "en": "High Conversion & Security"
+        }
+      }
+    ],
+    "stack": [
+      "C#",
+      ".NET 8",
+      "ASP.NET Core",
+      "Angular 21",
+      "TypeScript",
+      "MySQL 8",
+      "Tailwind CSS",
+      "Docker"
+    ],
+    "links": {
+      "github": "https://github.com/TavaoBR/payflow"
+    }
+  },
+  {
+    "id": "maylove-platform",
+    "slug": "maylove-platform",
+    "featured": true,
+    "category": "saas",
+    "title": "MayLove — Ecossistema de Homenagens Digitais",
+    "role": {
+      "pt": "Arquiteto & Desenvolvedor Full Stack",
+      "en": "Architect & Full Stack Developer"
+    },
+    "period": "2024",
+    "shortDescription": {
+      "pt": "Ecossistema multi-serviço: API Symfony 7.2 com DDD, microsserviço independente de armazenamento com metadados e app Vue 3 + Tailwind.",
+      "en": "Multi-service ecosystem: Symfony 7.2 API with DDD, independent storage microservice with metadata, and Vue 3 + Tailwind app."
+    },
+    "fullDescription": {
+      "pt": "Plataforma de criação e publicação de homenagens digitais dividida em 3 camadas independentes: (1) API principal em Symfony 7.2 com arquitetura DDD pragmática, MySQL 8 e autenticação customizada x-maylove-token; (2) microsserviço independente maylove-storages para persistência segura de arquivos, metadados e versionamento; e (3) maylove-app frontend em Vue 3 + TypeScript + Vite, Pinia e Tailwind CSS v4 com Flowbite.",
+      "en": "Digital tribute platform structured across 3 decoupled layers: (1) core API in Symfony 7.2 with pragmatic DDD architecture, MySQL 8, and custom x-maylove-token auth; (2) independent maylove-storages microservice for secure media persistence, metadata, and versioning; and (3) maylove-app frontend in Vue 3 + TypeScript + Vite, Pinia, and Tailwind CSS v4 with Flowbite."
+    },
+    "challenge": {
+      "pt": "Isolar o tráfego pesado de upload e visualização de fotos e vídeos da API transacional principal, evitando sobrecarga no banco de dados.",
+      "en": "Isolating heavy media upload/streaming traffic from the core transactional API to avoid database resource contention."
+    },
+    "solution": {
+      "pt": "Criação de um microsserviço de armazenamento desacoplado (maylove-storages) e frontend reativo consumindo contratos de API bem definidos.",
+      "en": "Engineered a decoupled dedicated storage microservice (maylove-storages) and reactive Vue 3 client consuming strict API contracts."
+    },
+    "metrics": [
+      {
+        "value": "3 Repos",
+        "label": {
+          "pt": "API + Storages + App",
+          "en": "API + Storages + App"
+        }
+      },
+      {
+        "value": "Symfony 7.2",
+        "label": {
+          "pt": "Arquitetura DDD Pragmática",
+          "en": "Pragmatic DDD Architecture"
+        }
+      },
+      {
+        "value": "Vue 3 + Vite",
+        "label": {
+          "pt": "Tailwind CSS v4 + Pinia",
+          "en": "Tailwind CSS v4 + Pinia"
+        }
+      }
+    ],
+    "stack": [
+      "PHP 8",
+      "Symfony 7.2",
+      "MySQL 8",
+      "Vue.js 3",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS v4",
+      "Flowbite",
+      "Pinia",
+      "Docker"
+    ],
+    "links": {
+      "github": "https://github.com/Start-up-2-0/maylove-api",
+      "repos": [
+        { "label": "maylove-api (Symfony 7.2)", "url": "https://github.com/Start-up-2-0/maylove-api" },
+        { "label": "maylove-storages (Storage Service)", "url": "https://github.com/Start-up-2-0/maylove-storages" },
+        { "label": "maylove-app (Vue 3 + Vite)", "url": "https://github.com/Start-up-2-0/maylove-app" }
+      ]
+    }
+  },
+  {
+    "id": "monte-sua-dieta",
+    "slug": "monte-sua-dieta",
+    "featured": true,
+    "category": "saas",
+    "title": "Monte Sua Dieta — Minha IA Fitness (Full Stack)",
+    "role": {
+      "pt": "Arquiteto & Desenvolvedor Full Stack",
+      "en": "Architect & Full Stack Developer"
+    },
+    "period": "2024",
+    "shortDescription": {
+      "pt": "Plataforma de nutrição que utiliza IA para geração automatizada de planos alimentares personalizados, desenvolvida em Symfony e Vue 3.",
+      "en": "Nutrition platform utilizing AI for automated personalized meal planning, built with Symfony and Vue 3."
+    },
+    "fullDescription": {
+      "pt": "Solução Full Stack de nutrição inteligente composta por: (1) Minha IA Fitness API desenvolvida em PHP 8 e Symfony RESTful, modelando regras de cálculo calórico, registro de refeições, metas corporais e integração com inteligência artificial para elaboração de dietas dinâmicas; e (2) monte-sua-dieta-front, aplicação web reativa em Vue 3 + TypeScript com Vite e Tailwind CSS.",
+      "en": "Full-stack smart nutrition platform composed of: (1) Minha IA Fitness API built with PHP 8 and Symfony RESTful, implementing calorie calculation rules, meal logging, fitness goals, and AI integration for dynamic meal plan generation; and (2) monte-sua-dieta-front, a reactive web app in Vue 3 + TypeScript with Vite and Tailwind CSS."
+    },
+    "challenge": {
+      "pt": "Traduzir dados de treino, preferências alimentares e restrições calóricas em prompts estruturados e planos alimentares precisos e viáveis.",
+      "en": "Transforming training routines, food preferences, and caloric restrictions into structured prompts and clinically sound meal plans."
+    },
+    "solution": {
+      "pt": "Engine de backend com validações nutricionais em Symfony e integração controlada com IA, oferecendo uma experiência interativa em Vue 3.",
+      "en": "Backend validation engine in Symfony with controlled AI orchestration, paired with an intuitive interactive Vue 3 frontend."
+    },
+    "metrics": [
+      {
+        "value": "IA Generativa",
+        "label": {
+          "pt": "Planos Nutricionais Dinâmicos",
+          "en": "Dynamic Nutrition Plans"
+        }
+      },
+      {
+        "value": "Symfony 8.x",
+        "label": {
+          "pt": "API RESTful Robusta",
+          "en": "Robust RESTful API"
+        }
+      },
+      {
+        "value": "Vue 3 + Vite",
+        "label": {
+          "pt": "Frontend Reativo & Rápido",
+          "en": "Fast Reactive Frontend"
+        }
+      }
+    ],
+    "stack": [
+      "PHP 8",
+      "Symfony",
+      "Vue.js 3",
+      "TypeScript",
+      "Vite",
+      "MySQL",
+      "Tailwind CSS",
+      "IA / LLMs",
+      "Docker"
+    ],
+    "links": {
+      "github": "https://github.com/TavaoBR/minha-ia-fitness-api",
+      "repos": [
+        { "label": "API (Symfony / PHP)", "url": "https://github.com/TavaoBR/minha-ia-fitness-api" },
+        { "label": "Frontend (Vue 3 / Vite)", "url": "https://github.com/TavaoBR/monte-sua-dieta-front" }
+      ]
+    }
+  },
+  {
+    "id": "helper-desk",
+    "slug": "helper-desk-supportflow",
+    "featured": true,
+    "category": "enterprise",
+    "title": "SupportFlow — Enterprise Help Desk & Service Desk",
+    "role": {
+      "pt": "Arquiteto & Desenvolvedor Full Stack",
+      "en": "Architect & Full Stack Developer"
+    },
+    "period": "2024",
+    "shortDescription": {
+      "pt": "Sistema corporativo multi-tenant de Help Desk / Service Desk para centralização de chamados internos, SLAs e automação de suporte.",
+      "en": "Enterprise multi-tenant Help Desk / Service Desk platform for centralizing internal tickets, SLAs, and support automation."
+    },
+    "fullDescription": {
+      "pt": "Plataforma corporativa de Service Desk projetada para resolver a dispersão de solicitações internas (e-mails não monitorados, mensagens de WhatsApp e planilhas avulsas). Desenvolvida em TypeScript com arquitetura limpa, separação rigorosa de responsabilidades, suporte a multi-tenancy, controle de SLAs de atendimento, triagem inteligente de tickets e painel operacional para equipes técnicas.",
+      "en": "Enterprise Service Desk platform built to resolve fragmented internal operations (unmonitored emails, messaging apps, and ad-hoc spreadsheets). Engineered in TypeScript with clean architecture, strict separation of concerns, multi-tenant support, SLA tracking, intelligent ticket triage, and operational dashboards for technical teams."
+    },
+    "challenge": {
+      "pt": "Eliminar gargalos de atendimento e falta de rastreabilidade de solicitações em ambientes com múltiplos setores e clientes corporativos.",
+      "en": "Eliminating operational bottlenecks and lack of request traceability across multi-department corporate environments."
+    },
+    "solution": {
+      "pt": "Arquitetura multi-tenant com controle de acesso granular, gestão de filas de suporte, cronômetros de SLA e relatórios de produtividade.",
+      "en": "Multi-tenant architecture with granular access control, support queue management, SLA timers, and productivity metrics."
+    },
+    "metrics": [
+      {
+        "value": "Multi-Tenant",
+        "label": {
+          "pt": "Isolamento de Contas",
+          "en": "Account Isolation"
+        }
+      },
+      {
+        "value": "Gestão de SLA",
+        "label": {
+          "pt": "Controle de Tempo de Resposta",
+          "en": "Response Time Control"
+        }
+      },
+      {
+        "value": "TypeScript",
+        "label": {
+          "pt": "Clean Architecture & Tipagem",
+          "en": "Clean Architecture & Types"
+        }
+      }
+    ],
+    "stack": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Tailwind CSS",
+      "PostgreSQL / MySQL",
+      "Docker"
+    ],
+    "links": {
+      "github": "https://github.com/TavaoBR/helper-desk"
+    }
+  },
+  {
+    "id": "sistema-ponto-rh",
+    "slug": "sistema-ponto-rh",
+    "featured": true,
+    "category": "enterprise",
+    "title": "Sistema de Ponto e Gestão de Pessoas",
+    "role": {
+      "pt": "Desenvolvedor Full Stack",
+      "en": "Full Stack Developer"
+    },
+    "period": "2024",
+    "shortDescription": {
+      "pt": "Gestão de jornada e RH (.NET 8 + Vue 3): banco de horas, feriados, escalas, geolocalização no registro de ponto, relatórios e permissões por perfil.",
+      "en": "Workforce & HR management platform (.NET 8 + Vue 3): time tracking, holidays, shift schedules, geolocation on punch-in, reports, and role-based permissions."
+    },
+    "fullDescription": {
+      "pt": "Plataforma completa de gestão de jornada de trabalho e recursos humanos desenvolvida em C# / .NET 8 e Vue 3. Funcionalidades integradas de banco de horas, cálculo de horas extras, gestão de feriados e escalas de trabalho, geolocalização obrigatória no registro de ponto para auditoria, emissão de relatórios gerenciais e controle de permissões por perfil de usuário.",
+      "en": "Complete workforce and HR management platform built in C# / .NET 8 and Vue 3. Features integrated time-bank tracking, overtime calculation, holiday and shift schedule management, mandatory geolocation verification on punch-in for compliance, administrative reports, and role-based access control."
+    },
+    "challenge": {
+      "pt": "Garantir cálculos precisos de horas trabalhadas, conformidade com regras trabalhistas e validação de geolocalização sem fraudes.",
+      "en": "Ensuring exact time calculations, compliance with labor regulations, and tamper-resistant geolocation validation on time entries."
+    },
+    "solution": {
+      "pt": "Modelagem de regras de negócio em C# .NET 8 com validação de coordenadas geográficas e banco de dados relacional para auditoria detalhada.",
+      "en": "Engineered domain business rules in C# .NET 8 with coordinate validation and relational database logging for comprehensive auditing."
+    },
+    "metrics": [
+      {
+        "value": ".NET 8 + Vue 3",
+        "label": {
+          "pt": "Stack de Alta Confiabilidade",
+          "en": "High-Reliability Stack"
+        }
+      },
+      {
+        "value": "Geolocalização",
+        "label": {
+          "pt": "Auditoria de Registro de Ponto",
+          "en": "Audit-Ready Punch-in Log"
+        }
+      },
+      {
+        "value": "RBAC",
+        "label": {
+          "pt": "Permissões de RH e Gestão",
+          "en": "HR & Management Access"
+        }
+      }
+    ],
+    "stack": [
+      "C#",
+      ".NET 8",
+      "ASP.NET Core",
+      "Vue.js 3",
+      "TypeScript",
+      "SQL Server / MySQL",
+      "Tailwind CSS",
+      "Docker"
+    ]
+  },
+  {
+    "id": "hospital-amparo",
+    "slug": "hospital-amparo-de-maria",
+    "featured": true,
+    "category": "enterprise",
+    "title": "Hospital Amparo de Maria — Workspace Integrada (11 Sistemas)",
+    "role": {
+      "pt": "Desenvolvedor Full Stack (Líder Técnico)",
+      "en": "Full Stack Tech Lead"
+    },
+    "period": "abr/2021 – fev/2024",
+    "company": "Hospital Amparo de Maria",
+    "location": "Estância, SE",
+    "shortDescription": {
+      "pt": "Liderança técnica do portal institucional e workspace corporativa unificando 11 sistemas integrados com controle de acesso por perfil.",
+      "en": "Technical leadership of institutional portal and corporate workspace unifying 11 integrated systems with role-based access control."
+    },
+    "fullDescription": {
+      "pt": "Liderança técnica do portal institucional e de uma workspace com 11 sistemas integrados e controle de acesso por perfil. Módulos integrados: gestão de equipamentos médicos e calibração, chamados de TI, manutenção predial, contratos, ouvidoria e notificação de incidentes. Estratégia de CDN e cache para entrega de assets, reduzindo latência, e automação de fluxos que eliminou tramitações manuais em papel entre setores.",
+      "en": "Technical leadership over the institutional portal and corporate workspace consolidating 11 integrated systems with role-based access control. Modules: medical equipment calibration, IT desk, facility maintenance, contracts, ombudsman, and incident reporting. Implemented CDN and caching to reduce latency, automating inter-department workflows to eliminate paper forms."
+    },
+    "challenge": {
+      "pt": "Operações hospitalares fragmentadas com tramitações manuais em papel e lentidão de resposta em chamados de equipamentos críticos.",
+      "en": "Fragmented hospital workflows with manual paper dispatches and slow response times for critical medical equipment calibration."
+    },
+    "solution": {
+      "pt": "Desenvolvimento de plataforma centralizada com 11 módulos operacionais, controle de permissões por perfil (RBAC) e cache de assets.",
+      "en": "Built a centralized platform orchestrating 11 operational modules, role-based access control (RBAC), and asset edge caching."
+    },
+    "metrics": [
+      {
+        "value": "11",
+        "label": {
+          "pt": "Sistemas Integrados Unificados",
+          "en": "Unified Healthcare Systems"
+        }
+      },
+      {
+        "value": "100%",
+        "label": {
+          "pt": "Eliminação de Papel Físico",
+          "en": "Paperless Digital Transition"
+        }
+      },
+      {
+        "value": "RBAC",
+        "label": {
+          "pt": "Controle por Perfil Hospitalar",
+          "en": "Hospital Access Control"
+        }
+      }
+    ],
+    "stack": [
+      "PHP",
+      "JavaScript",
+      "MySQL",
+      "Docker",
+      "Linux",
+      "Nginx",
+      "CDN"
+    ]
+  },
+  {
+    "id": "mercadopago-api",
+    "slug": "mercadopago-api-symfony",
+    "featured": true,
+    "category": "opensource",
+    "title": "Integração Mercado Pago API — Symfony (Open Source)",
+    "role": {
+      "pt": "Autor & Desenvolvedor Open Source",
+      "en": "Author & Open Source Developer"
+    },
+    "period": "2024",
+    "shortDescription": {
+      "pt": "API para simplificar a integração com o Mercado Pago: pagamentos e recebimento de eventos via webhook em ecossistemas PHP/Symfony.",
+      "en": "API package simplifying integration with Mercado Pago: payment execution and webhook event processing for PHP/Symfony."
+    },
+    "fullDescription": {
+      "pt": "Pacote open source em PHP/Symfony criado para simplificar e padronizar rotinas de integração com a API do Mercado Pago: processamento de pagamentos, geração de chaves PIX e recebimento seguro de eventos via webhook com validação de payload.",
+      "en": "Open source PHP/Symfony package created to simplify and standardize Mercado Pago API integrations: payment processing, dynamic PIX generation, and secure webhook event handling with payload verification."
+    },
+    "challenge": {
+      "pt": "Simplificar a integração de pagamentos e tratamento de webhooks do Mercado Pago para desenvolvedores PHP sem complexidade desnecessária.",
+      "en": "Simplifying payment integrations and webhook handling with Mercado Pago for PHP developers without unnecessary friction."
+    },
+    "solution": {
+      "pt": "Estrutura limpa e tipada para emissão de pagamentos e tratamento desacoplado de eventos de webhook em PHP.",
+      "en": "Clean and typed architecture for payment dispatch and decoupled webhook event processing in PHP."
+    },
+    "metrics": [
+      {
+        "value": "Open Source",
+        "label": {
+          "pt": "Pacote Aberto no GitHub",
+          "en": "Open Source on GitHub"
+        }
+      },
+      {
+        "value": "PIX + Webhook",
+        "label": {
+          "pt": "Pagamentos & Notificações",
+          "en": "Payments & Webhooks"
+        }
+      },
+      {
+        "value": "Symfony",
+        "label": {
+          "pt": "Arquitetura em PHP 8",
+          "en": "PHP 8 Architecture"
+        }
+      }
+    ],
+    "stack": [
+      "PHP 8",
+      "Symfony",
+      "Mercado Pago API",
+      "Webhooks",
+      "Composer"
+    ],
+    "links": {
+      "github": "https://github.com/TavaoBR/integracao-mercado-pago-api"
+    }
+  }
+]
