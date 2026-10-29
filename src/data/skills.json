@@ -1,0 +1,86 @@
+[
+  {
+    "id": "backend",
+    "name": {
+      "en": "Backend & APIs",
+      "pt": "Backend & APIs REST"
+    },
+    "skills": [
+      { "name": "PHP 8", "category": "backend", "level": "Principal", "highlight": true },
+      { "name": "Symfony", "category": "backend", "level": "Principal", "highlight": true },
+      { "name": "Laravel", "category": "backend", "level": "Principal", "highlight": true },
+      { "name": "Doctrine ORM", "category": "backend", "level": "Avançado", "highlight": false },
+      { "name": "C# (.NET 8)", "category": "backend", "level": "Avançado", "highlight": true },
+      { "name": "ASP.NET Core", "category": "backend", "level": "Avançado", "highlight": false },
+      { "name": "Entity Framework Core", "category": "backend", "level": "Avançado", "highlight": false },
+      { "name": "Node.js", "category": "backend", "level": "Avançado", "highlight": true },
+      { "name": "APIs REST & Webhooks", "category": "backend", "level": "Especialista", "highlight": true },
+      { "name": "Microsserviços", "category": "backend", "level": "Avançado", "highlight": true }
+    ]
+  },
+  {
+    "id": "frontend",
+    "name": {
+      "en": "Frontend",
+      "pt": "Frontend"
+    },
+    "skills": [
+      { "name": "Vue.js 3", "category": "frontend", "level": "Principal", "highlight": true },
+      { "name": "TypeScript", "category": "frontend", "level": "Avançado", "highlight": true },
+      { "name": "JavaScript", "category": "frontend", "level": "Avançado", "highlight": false },
+      { "name": "Pinia", "category": "frontend", "level": "Avançado", "highlight": false },
+      { "name": "Vite", "category": "frontend", "level": "Avançado", "highlight": false },
+      { "name": "Tailwind CSS", "category": "frontend", "level": "Avançado", "highlight": true },
+      { "name": "React", "category": "frontend", "level": "Familiaridade", "highlight": false },
+      { "name": "Next.js", "category": "frontend", "level": "Familiaridade", "highlight": false },
+      { "name": "Angular", "category": "frontend", "level": "Familiaridade", "highlight": false }
+    ]
+  },
+  {
+    "id": "data",
+    "name": {
+      "en": "Databases & Caching",
+      "pt": "Bancos de Dados & Cache"
+    },
+    "skills": [
+      { "name": "MySQL", "category": "data", "level": "Avançado", "highlight": true },
+      { "name": "PostgreSQL", "category": "data", "level": "Avançado", "highlight": true },
+      { "name": "Redis (Idempotência & Filas)", "category": "data", "level": "Avançado", "highlight": true },
+      { "name": "SQL Server", "category": "data", "level": "Intermediário", "highlight": false },
+      { "name": "Supabase", "category": "data", "level": "Intermediário", "highlight": false }
+    ]
+  },
+  {
+    "id": "architecture",
+    "name": {
+      "en": "Architecture & Testing",
+      "pt": "Arquitetura & Testes"
+    },
+    "skills": [
+      { "name": "Clean Architecture", "category": "architecture", "level": "Avançado", "highlight": true },
+      { "name": "Domain-Driven Design (DDD)", "category": "architecture", "level": "Avançado", "highlight": true },
+      { "name": "SOLID & Design Patterns", "category": "architecture", "level": "Avançado", "highlight": true },
+      { "name": "Repository Pattern", "category": "architecture", "level": "Avançado", "highlight": false },
+      { "name": "JWT & Refresh Tokens", "category": "architecture", "level": "Avançado", "highlight": false },
+      { "name": "PHPUnit", "category": "architecture", "level": "Avançado", "highlight": true },
+      { "name": "xUnit & Moq", "category": "architecture", "level": "Avançado", "highlight": true },
+      { "name": "FluentAssertions", "category": "architecture", "level": "Avançado", "highlight": false },
+      { "name": "Vitest", "category": "architecture", "level": "Avançado", "highlight": false }
+    ]
+  },
+  {
+    "id": "devops",
+    "name": {
+      "en": "DevOps & Infrastructure",
+      "pt": "DevOps & Infraestrutura"
+    },
+    "skills": [
+      { "name": "Docker & Containers", "category": "devops", "level": "Avançado", "highlight": true },
+      { "name": "GitHub Actions (CI/CD)", "category": "devops", "level": "Avançado", "highlight": true },
+      { "name": "GitLab CI/CD", "category": "devops", "level": "Avançado", "highlight": false },
+      { "name": "Linux & Nginx", "category": "devops", "level": "Avançado", "highlight": true },
+      { "name": "Railway", "category": "devops", "level": "Intermediário", "highlight": false },
+      { "name": "Swagger / OpenAPI", "category": "devops", "level": "Avançado", "highlight": false }
+    ]
+  }
+]
