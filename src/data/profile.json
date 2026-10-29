@@ -1,0 +1,121 @@
+{
+  "name": "Gustavo de Oliveira Fagundes",
+  "headline": {
+    "pt": "Desenvolvedor Full Stack · PHP (Symfony / Laravel) · Vue.js 3 · C# .NET 8",
+    "en": "Full Stack Developer · PHP (Symfony / Laravel) · Vue.js 3 · C# .NET 8"
+  },
+  "role": {
+    "pt": "Desenvolvedor Full Stack",
+    "en": "Full Stack Developer"
+  },
+  "titleBadge": {
+    "pt": "FULL STACK DEVELOPER · APIS REST & PLATAFORMAS SAAS",
+    "en": "FULL STACK DEVELOPER · REST APIS & SAAS PLATFORMS"
+  },
+  "bioShort": {
+    "pt": "Desenvolvedor Full Stack com 5+ anos de experiência em APIs REST, microsserviços e plataformas SaaS, com foco em PHP (Symfony/Laravel) e Vue.js, além de projetos em C#/.NET 8. Desenvolvi integrações financeiras (PIX, boletos, empréstimos e conciliação) que processaram mais de 1 milhão de transações PIX e liderei tecnicamente uma plataforma hospitalar com 11 sistemas integrados. Atuo no ciclo completo: arquitetura, desenvolvimento, CI/CD e sustentação em produção.",
+    "en": "Full Stack Developer with 5+ years of experience in REST APIs, microservices, and SaaS platforms, focusing on PHP (Symfony/Laravel) and Vue.js, alongside C#/.NET 8 projects. Engineered financial integrations (PIX, payment slips, loans, and automated reconciliation) processing over 1 million PIX transactions, and technically led an enterprise healthcare platform with 11 integrated systems. Working across the complete lifecycle: architecture, development, CI/CD, and production support."
+  },
+  "location": "Aracaju, SE · Brasil",
+  "timezone": "America/Maceio",
+  "availability": {
+    "status": "available",
+    "label": {
+      "pt": "Disponível para remoto / híbrido",
+      "en": "Available for remote / hybrid"
+    }
+  },
+  "social": {
+    "github": "https://github.com/TavaoBR",
+    "linkedin": "https://linkedin.com/in/gustavofagundes-dev",
+    "email": "jamesgustavo14@gmail.com",
+    "whatsapp": "https://wa.me/5579991917634",
+    "phone": "+55 (79) 99191-7634",
+    "resumePdf": "/curriculo-gustavo-fagundes.pdf"
+  },
+  "metrics": [
+    {
+      "value": "+1,000,000",
+      "label": {
+        "pt": "Transações PIX Processadas",
+        "en": "PIX Transactions Processed"
+      },
+      "context": {
+        "pt": "del.tech · Produção",
+        "en": "del.tech · Production"
+      }
+    },
+    {
+      "value": "11",
+      "label": {
+        "pt": "Sistemas Hospitalares Integrados",
+        "en": "Healthcare Systems Integrated"
+      },
+      "context": {
+        "pt": "Hospital Amparo de Maria",
+        "en": "Hospital Amparo de Maria"
+      }
+    },
+    {
+      "value": "5+",
+      "label": {
+        "pt": "Anos de Experiência em Produção",
+        "en": "Years of Production Experience"
+      },
+      "context": {
+        "pt": "Sistemas e Microsserviços",
+        "en": "Systems & Microservices"
+      }
+    },
+    {
+      "value": "100%",
+      "label": {
+        "pt": "Idempotência & Conciliação",
+        "en": "Idempotency & Reconciliation"
+      },
+      "context": {
+        "pt": "Redis & Webhook Listeners",
+        "en": "Redis & Webhook Listeners"
+      }
+    }
+  ],
+  "education": [
+    {
+      "course": {
+        "pt": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+        "en": "Technologist in Systems Analysis and Development"
+      },
+      "institution": "Estácio",
+      "period": "2021 – 2023"
+    },
+    {
+      "course": {
+        "pt": "Técnico em Programação",
+        "en": "Programming Technician"
+      },
+      "institution": "SESI / SENAI",
+      "period": "2017 – 2018"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Claude 101",
+      "issuer": "Anthropic",
+      "year": "2026"
+    }
+  ],
+  "languages": [
+    {
+      "name": { "pt": "Português", "en": "Portuguese" },
+      "level": { "pt": "Nativo", "en": "Native" }
+    },
+    {
+      "name": { "pt": "Inglês", "en": "English" },
+      "level": { "pt": "Intermediário (leitura técnica e documentação)", "en": "Intermediate (technical reading & documentation)" }
+    },
+    {
+      "name": { "pt": "Espanhol", "en": "Spanish" },
+      "level": { "pt": "Básico", "en": "Basic" }
+    }
+  ]
+}
