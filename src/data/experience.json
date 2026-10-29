@@ -1,0 +1,180 @@
+[
+  {
+    "id": "deltech",
+    "company": "del.tech",
+    "role": "Desenvolvedor Full Stack IV",
+    "period": "jul/2025 – mai/2026",
+    "type": "CLT · Aracaju, SE (presencial) · Promovido a Full Stack IV em dez/2025",
+    "location": "Aracaju, SE",
+    "current": true,
+    "description": {
+      "pt": "Desenvolvimento de plataformas SaaS multi-tenant e integrações com Mercado Pago e Delfinance para PIX, boletos, empréstimos e conciliação financeira automatizada.",
+      "en": "Development of multi-tenant SaaS platforms and integrations with Mercado Pago and Delfinance for PIX, payment slips, loans, and automated financial reconciliation."
+    },
+    "achievements": [
+      {
+        "pt": "Integrações com Mercado Pago e Delfinance para PIX, boletos, empréstimos e conciliação financeira automatizada — +1 milhão de transações PIX processadas.",
+        "en": "Financial integrations with Mercado Pago and Delfinance for PIX, slips, loans, and automated reconciliation — over 1 million PIX transactions processed."
+      },
+      {
+        "pt": "Processamento assíncrono e listeners de webhooks com Redis, garantindo entrega confiável e idempotência de eventos críticos.",
+        "en": "Asynchronous processing and webhook listeners with Redis, ensuring reliable delivery and idempotency for critical events."
+      },
+      {
+        "pt": "Backend em Symfony e Node.js com Service Layer, Repository Pattern, DTOs e SOLID para plataformas SaaS multi-tenant.",
+        "en": "Backend in Symfony and Node.js using Service Layer, Repository Pattern, DTOs, and SOLID principles for multi-tenant SaaS platforms."
+      },
+      {
+        "pt": "Pipelines de CI/CD com GitHub Actions e deploy de aplicações em containers Docker.",
+        "en": "CI/CD pipelines with GitHub Actions and containerized application deployments with Docker."
+      }
+    ],
+    "stack": [
+      "PHP",
+      "Symfony",
+      "Node.js",
+      "Vue.js",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "Docker",
+      "GitHub Actions"
+    ]
+  },
+  {
+    "id": "up3group",
+    "company": "UP3 Group",
+    "role": "Desenvolvedor PHP Full Stack",
+    "period": "mai/2025 – fev/2026",
+    "type": "PJ · Remoto (EUA) · Contrato em paralelo, cliente Avail Holding",
+    "location": "Remoto (Estados Unidos)",
+    "current": false,
+    "description": {
+      "pt": "Desenvolvimento de endpoints e rotinas backend em PHP/Laravel com consultas otimizadas em MySQL e PostgreSQL para o cliente norte-americano Avail Holding.",
+      "en": "Development of backend endpoints and routines in PHP/Laravel with optimized queries in MySQL and PostgreSQL for US-based client Avail Holding."
+    },
+    "achievements": [
+      {
+        "pt": "Endpoints e rotinas backend em PHP/Laravel com consultas otimizadas em MySQL e PostgreSQL.",
+        "en": "Backend endpoints and routines in PHP/Laravel with query optimization in MySQL and PostgreSQL."
+      },
+      {
+        "pt": "Pipelines de CI/CD no GitLab e ambientes Docker padronizados para desenvolvimento, homologação e produção.",
+        "en": "GitLab CI/CD pipelines and standardized Docker environments for development, staging, and production."
+      },
+      {
+        "pt": "Code reviews, investigação de gargalos de desempenho e resolução de incidentes em produção.",
+        "en": "Code reviews, performance bottleneck investigations, and production incident resolution."
+      }
+    ],
+    "stack": [
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "PostgreSQL",
+      "GitLab CI/CD",
+      "Docker"
+    ]
+  },
+  {
+    "id": "onebytetech",
+    "company": "One Byte Tech",
+    "role": "Desenvolvedor Full Stack",
+    "period": "jan/2025 – jul/2025",
+    "type": "CLT · Aracaju, SE",
+    "location": "Aracaju, SE",
+    "current": false,
+    "description": {
+      "pt": "Desenvolvimento e documentação de APIs REST em PHP/Symfony integrando sistemas legados de clientes a plataformas SaaS.",
+      "en": "Development and documentation of REST APIs in PHP/Symfony integrating clients' legacy systems into SaaS platforms."
+    },
+    "achievements": [
+      {
+        "pt": "APIs REST documentadas em PHP/Symfony integrando sistemas legados de clientes a plataformas SaaS.",
+        "en": "Documented REST APIs in PHP/Symfony integrating legacy client systems into SaaS platforms."
+      },
+      {
+        "pt": "Integração da Evolution API (WhatsApp) para chatbots e notificações transacionais em tempo real.",
+        "en": "Integration of Evolution API (WhatsApp) for chatbots and real-time transactional notifications."
+      },
+      {
+        "pt": "Manutenção de aplicações Vue.js com MySQL, PostgreSQL e Docker.",
+        "en": "Maintenance of Vue.js applications with MySQL, PostgreSQL, and Docker."
+      }
+    ],
+    "stack": [
+      "PHP",
+      "Symfony",
+      "Vue.js",
+      "Evolution API",
+      "PostgreSQL",
+      "MySQL",
+      "Docker"
+    ]
+  },
+  {
+    "id": "finolution",
+    "company": "FINolution",
+    "role": "Desenvolvedor Full Stack",
+    "period": "fev/2024 – mai/2024",
+    "type": "PJ · Remoto (Suíça)",
+    "location": "Remoto (Suíça)",
+    "current": false,
+    "description": {
+      "pt": "Desenvolvimento de APIs e microsserviços para integração com gateways de pagamento internacionais em ecossistema moderno.",
+      "en": "Development of APIs and microservices for international payment gateway integrations in a modern stack."
+    },
+    "achievements": [
+      {
+        "pt": "APIs e microsserviços para integração com gateways de pagamento internacionais (Next.js, React, Supabase/PostgreSQL).",
+        "en": "APIs and microservices for international payment gateway integrations (Next.js, React, Supabase/PostgreSQL)."
+      },
+      {
+        "pt": "Otimização de consultas e esquemas, reduzindo o tempo de resposta de rotinas analíticas; análise de causa-raiz de incidentes.",
+        "en": "Query and schema optimizations, reducing response times for analytical routines; root-cause analysis of incidents."
+      }
+    ],
+    "stack": [
+      "Next.js",
+      "React",
+      "Supabase",
+      "PostgreSQL",
+      "TypeScript",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "id": "hospital-amparo-xp",
+    "company": "Hospital Amparo de Maria",
+    "role": "Desenvolvedor Full Stack (Líder Técnico)",
+    "period": "abr/2021 – fev/2024",
+    "type": "CLT · Estância, SE",
+    "location": "Estância, SE",
+    "current": false,
+    "description": {
+      "pt": "Liderança técnica do portal institucional e de uma workspace com 11 sistemas integrados e controle de acesso por perfil (RBAC).",
+      "en": "Technical leadership of the institutional portal and an enterprise workspace with 11 integrated systems and role-based access control (RBAC)."
+    },
+    "achievements": [
+      {
+        "pt": "Liderança técnica do portal institucional e de uma workspace com 11 sistemas integrados e controle de acesso por perfil.",
+        "en": "Technical leadership over the institutional portal and enterprise workspace consolidating 11 integrated systems with RBAC."
+      },
+      {
+        "pt": "Sistemas de gestão de equipamentos médicos, chamados de TI, manutenção predial, contratos, ouvidoria e notificação de incidentes.",
+        "en": "Systems for medical equipment management, IT desk, building maintenance, contracts, ombudsman, and incident reporting."
+      },
+      {
+        "pt": "CDN e cache para entrega de assets, reduzindo latência; automação de fluxos que eliminou tramitações manuais entre setores.",
+        "en": "CDN and caching strategies for asset delivery, minimizing latency; workflow automations that eliminated manual paper dispatches."
+      }
+    ],
+    "stack": [
+      "PHP",
+      "JavaScript",
+      "MySQL",
+      "Docker",
+      "Linux"
+    ]
+  }
+]
