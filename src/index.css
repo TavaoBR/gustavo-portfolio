@@ -1,0 +1,267 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Camada 1: Primitivos Emerald & Graphite */
+  --graphite-950: #080c0a;
+  --graphite-900: #0e1411;
+  --graphite-850: #141c18;
+  --graphite-800: #1a241f;
+  --graphite-750: #222f28;
+
+  --emerald-50: #ecfdf5;
+  --emerald-100: #d1fae5;
+  --emerald-200: #a7f3d0;
+  --emerald-300: #6ee7b7;
+  --emerald-400: #34d399;
+  --emerald-500: #10b981;
+  --emerald-600: #059669;
+  --emerald-700: #047857;
+  --emerald-800: #064e3b;
+  --emerald-900: #062d23;
+  --emerald-950: #021812;
+
+  --ice-white: #ffffff;
+  --ice-50: #f8fafc;
+  --ice-100: #f1f5f9;
+  --ice-200: #e2e8f0;
+  --ice-300: #cbd5e1;
+  --ice-400: #94a3b8;
+  --ice-500: #64748b;
+  --ice-600: #475569;
+
+  --alpha-white-2: rgba(255, 255, 255, 0.02);
+  --alpha-white-4: rgba(255, 255, 255, 0.04);
+  --alpha-white-8: rgba(255, 255, 255, 0.08);
+  --alpha-white-15: rgba(255, 255, 255, 0.15);
+  --alpha-white-25: rgba(255, 255, 255, 0.25);
+
+  --radius-sm-raw: 8px;
+  --radius-md-raw: 12px;
+  --radius-lg-raw: 16px;
+  --radius-xl-raw: 20px;
+  --radius-pill-raw: 9999px;
+
+  /* Camada 2: Semânticos com Identidade Esmeralda Equilibrada */
+  --bg-canvas: #090d0b;
+  --bg-surface: #0f1512;
+  --bg-card: #141c18;
+  --bg-card-hover: #1b2621;
+  --bg-card-light: #f4f7f5;
+  --bg-glass: rgba(14, 20, 17, 0.82);
+
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-emerald: rgba(16, 185, 129, 0.22);
+  --border-hover: rgba(16, 185, 129, 0.45);
+  --border-active: rgba(16, 185, 129, 0.65);
+
+  --text-primary: var(--ice-white);
+  --text-secondary: var(--ice-200);
+  --text-muted: var(--ice-400);
+  --text-emerald: var(--emerald-500);
+
+  --accent-primary: var(--emerald-600);
+  --accent-hover: var(--emerald-700);
+  --accent-subtle: rgba(5, 150, 105, 0.16);
+  --accent-glow: rgba(5, 150, 105, 0.3);
+
+  --status-available: var(--emerald-400);
+  --status-available-glow: rgba(16, 185, 129, 0.35);
+
+  --radius-sm: var(--radius-sm-raw);
+  --radius-md: var(--radius-md-raw);
+  --radius-lg: var(--radius-lg-raw);
+  --radius-xl: var(--radius-xl-raw);
+  --radius-full: var(--radius-pill-raw);
+
+  /* Curvas e Física Apple WWDC */
+  --spring-snappy: cubic-bezier(0.19, 1, 0.22, 1);
+  --spring-fluid: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-instant: 100ms;
+  --duration-fast: 200ms;
+  --duration-normal: 350ms;
+}
+
+/* Base Body Setup */
+body {
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Focus Visible WCAG AA */
+:focus-visible {
+  outline: 2px solid rgba(16, 185, 129, 0.85) !important;
+  outline-offset: 3px !important;
+  border-radius: var(--radius-sm);
+}
+
+/* Dark Mode Autofill Override for Chrome/Edge/Safari */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active {
+  -webkit-text-fill-color: #ffffff !important;
+  -webkit-box-shadow: 0 0 0px 1000px #090d0b inset !important;
+  box-shadow: 0 0 0px 1000px #090d0b inset !important;
+  caret-color: #ffffff !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Spotlight Sheen Follower (Dribbble & Apple Benchmark) */
+.spotlight-card {
+  position: relative;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  transition: transform var(--duration-fast) var(--spring-fluid),
+    border-color var(--duration-fast) var(--spring-fluid);
+}
+
+.spotlight-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(550px circle at var(--mouse-x, -500px) var(--mouse-y, -500px),
+      rgba(16, 185, 129, 0.08),
+      rgba(255, 255, 255, 0.04) 30%,
+      transparent 55%);
+  opacity: 0;
+  transition: opacity 250ms ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.spotlight-card:hover::before {
+  opacity: 1;
+}
+
+.spotlight-card:hover {
+  border-color: var(--border-hover);
+}
+
+/* Micro-feedback no pointer-down / active */
+.tap-feedback {
+  transition: transform var(--duration-instant) var(--spring-fluid);
+  will-change: transform;
+}
+
+.tap-feedback:active {
+  transform: scale(0.972);
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222226;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333338;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 250ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 8s linear infinite;
+}
+
+/* Reduced Motion Override */
+@keyframes shine {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes starMovementBottom {
+  0% {
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(-100%, 0%);
+    opacity: 0;
+  }
+}
+
+@keyframes starMovementTop {
+  0% {
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(100%, 0%);
+    opacity: 0;
+  }
+}
+
+.animate-star-movement-bottom {
+  animation: starMovementBottom 6s linear infinite alternate;
+}
+
+.animate-star-movement-top {
+  animation: starMovementTop 6s linear infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .spotlight-card::before {
+    display: none !important;
+  }
+}
