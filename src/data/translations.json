@@ -1,0 +1,210 @@
+{
+  "en": {
+    "navbar": {
+      "about": "About",
+      "skills": "Tech Stack",
+      "cases": "Projects",
+      "experience": "Experience",
+      "contact": "Contact",
+      "status": "Available for remote / hybrid",
+      "cmdK": "Search",
+      "downloadCV": "Resume"
+    },
+    "hero": {
+      "badge": "ARACAJU, SE · AVAILABLE FOR REMOTE / HYBRID",
+      "title": "Hey, I'm Gustavo Fagundes. Full Stack Developer.",
+      "subtitle": "Full Stack Developer with 5+ years of experience in REST APIs, microservices, and SaaS platforms, focusing on PHP (Symfony/Laravel) and Vue.js 3, alongside C#/.NET 8 projects. Engineered financial integrations processing over 1M PIX transactions and technically led an enterprise hospital workspace with 11 integrated systems.",
+      "exploreBtn": "View Career",
+      "scheduleBtn": "Get in Touch",
+      "githubBtn": "GitHub",
+      "metric1Label": "PIX Transactions",
+      "metric2Label": "Integrated Systems",
+      "metric3Label": "Years Experience"
+    },
+    "bento": {
+      "badge": "BACKGROUND & CRAFT",
+      "heading": "Engineering for Scale, Resilience & Transactional Integrity",
+      "subheading": "Over 5 years architecting high-concurrency REST APIs, fintech integrations, and robust web applications across Brazil, the US, and Switzerland.",
+      "bioLead": "I am a Full Stack Software Engineer focused on architecting resilient distributed systems, high-volume financial integrations, and modern frontend interfaces.",
+      "bioP1": "Throughout my career, I have specialized in the modern PHP ecosystem (Symfony and Laravel) and C# .NET 8 on the backend, paired with Vue.js 3, TypeScript, and Pinia on the client side. My work spans high-scale fintech solutions, healthcare ERPs, and multi-tenant SaaS products.",
+      "bioP2": "I bring international experience working remotely with distributed teams in the United States and Switzerland, always adhering to Clean Architecture, SOLID principles, and rigorous automated testing.",
+      "pillar1Title": "High-Concurrency Architecture & Idempotency",
+      "pillar1Desc": "Service Layers, Clean Architecture, and distributed locking with Redis to guarantee zero duplicate credits and exact-once delivery across +1M PIX transactions and webhooks.",
+      "pillar2Title": "Automated Testing & Continuous Delivery",
+      "pillar2Desc": "Domain logic covered with xUnit, Moq, PHPUnit, and Vitest. Predictable, repeatable deployments using Docker containers and automated CI/CD pipelines.",
+      "pillar3Title": "Technical Leadership & Digital Transformation",
+      "pillar3Desc": "Experience leading technical squads to digitize complex workflows (such as 11 interconnected hospital systems), eliminating manual paper forms and enforcing role-based access control (RBAC).",
+      "educationTitle": "Education & Certifications",
+      "educationAds": "B.S. in Systems Analysis and Development (Estácio, 2021–2023) + SENAI Programming Technician",
+      "certClaude": "Anthropic Claude 101 Certified (2026) · Advanced LLM agent workflows",
+      "clockTitle": "Location & Availability",
+      "clockStatus": "Aracaju, SE · Brazil (UTC-3) · Open for Remote / Hybrid roles"
+    },
+    "skills": {
+      "badge": "STACK & TECHNOLOGIES",
+      "heading": "Tech Stack",
+      "subheading": "Languages, frameworks, databases, and architectural patterns proven across high-scale production systems."
+    },
+    "projects": {
+      "heading": "Real-World Projects",
+      "subheading": "A verified catalog of platforms, SaaS products, and open-source packages I've architected and delivered.",
+      "filterAll": "All Projects",
+      "filterFintech": "Fintech & Payments",
+      "filterEnterprise": "Enterprise & Health",
+      "filterSaas": "SaaS Platforms",
+      "filterOpenSource": "Open Source",
+      "viewDetails": "Project Details",
+      "challengeTitle": "The Challenge",
+      "solutionTitle": "Architecture & Decisions",
+      "impactTitle": "Verified Impact & Results",
+      "techStackTitle": "Technologies Used",
+      "viewRepo": "Source Code on GitHub",
+      "closeModal": "Close"
+    },
+    "experience": {
+      "heading": "Professional Experience",
+      "subheading": "Verified timeline of roles, companies, and responsibilities throughout my career.",
+      "present": "Present"
+    },
+    "contact": {
+      "heading": "Get in Touch",
+      "subheading": "Looking for a Senior Full Stack Engineer for remote or hybrid positions? Reach out directly via email, WhatsApp, or message below.",
+      "nameLabel": "Your Name",
+      "emailLabel": "Your Email",
+      "subjectLabel": "Subject",
+      "messageLabel": "Your Message",
+      "sendBtn": "Send Message",
+      "sending": "Sending...",
+      "successTitle": "Message Sent!",
+      "successDesc": "Thank you for reaching out! Your message was saved locally and I will respond promptly.",
+      "errorTitle": "Form Error",
+      "errorDesc": "Please fill in all required fields.",
+      "directTitle": "Direct Channels",
+      "copyEmail": "Copy Email",
+      "copied": "Copied to clipboard!",
+      "whatsapp": "Chat on WhatsApp",
+      "scheduleCall": "Send Direct Email",
+      "sentInboxTitle": "Local Message Activity",
+      "sentInboxEmpty": "No messages recorded yet."
+    },
+    "footer": {
+      "tagline": "Full Stack Developer · PHP (Symfony / Laravel) · Vue.js 3 · C# .NET 8 · APIs REST & SaaS",
+      "rights": "All rights reserved.",
+      "backToTop": "Back to Top"
+    },
+    "cmd": {
+      "placeholder": "Search projects, experience, stack or press ESC to exit...",
+      "navigation": "Navigation",
+      "projects": "Projects",
+      "actions": "Quick Actions",
+      "changeLang": "Switch Language (PT / EN)",
+      "copyEmailAction": "Copy Email Address",
+      "downloadCVAction": "Download Resume (PDF)",
+      "noResults": "No results found for"
+    }
+  },
+  "pt": {
+    "navbar": {
+      "about": "Sobre",
+      "skills": "Tecnologias",
+      "cases": "Projetos",
+      "experience": "Trajetória",
+      "contact": "Contato",
+      "status": "Disponível para remoto / híbrido",
+      "cmdK": "Buscar",
+      "downloadCV": "Currículo"
+    },
+    "hero": {
+      "badge": "ARACAJU, SE · DISPONÍVEL PARA REMOTO / HÍBRIDO",
+      "title": "Olá, sou Gustavo Fagundes. Desenvolvedor Full Stack.",
+      "subtitle": "Desenvolvedor Full Stack com 5+ anos de experiência em APIs REST, microsserviços e plataformas SaaS, com foco em PHP (Symfony/Laravel) e Vue.js 3, além de projetos em C#/.NET 8. Desenvolvi integrações financeiras que processaram mais de 1 milhão de transações PIX e liderei tecnicamente uma plataforma hospitalar com 11 sistemas integrados.",
+      "exploreBtn": "Ver Trajetória",
+      "scheduleBtn": "Falar Comigo",
+      "githubBtn": "GitHub",
+      "metric1Label": "Transações PIX",
+      "metric2Label": "Sistemas Integrados",
+      "metric3Label": "Anos de Experiência"
+    },
+    "bento": {
+      "badge": "BACKGROUND & CRAFT",
+      "heading": "Engenharia focada em escala, resiliência e integridade transacional",
+      "subheading": "Mais de 5 anos projetando APIs REST de alta concorrência, integrações financeiras e plataformas web modernas no Brasil, EUA e Suíça.",
+      "bioLead": "Sou Engenheiro de Software Full Stack dedicado a construir sistemas distribuídos resilientes, integrações financeiras de alto volume e interfaces web modernas.",
+      "bioP1": "Ao longo da minha trajetória, especializei-me no ecossistema PHP moderno (Symfony e Laravel) e C# .NET 8 no backend, aliados a Vue.js 3, TypeScript e Pinia no frontend. Minha experiência abrange desde motores de liquidação de pagamentos até digitalização hospitalar e plataformas SaaS multi-tenant.",
+      "bioP2": "Possuo vivência internacional atuando remotamente com equipes nos Estados Unidos e Suíça, aplicando rigorosamente Clean Architecture, princípios SOLID e testes automatizados de ponta a ponta.",
+      "pillar1Title": "Arquitetura de Concorrência & Idempotência",
+      "pillar1Desc": "Aplicação de Service Layer, Clean Architecture e chaveamento distribuído com Redis para assegurar concorrência zero e integridade absoluta em mais de 1 milhão de transações PIX e webhooks.",
+      "pillar2Title": "Testes Automatizados & Entrega Contínua",
+      "pillar2Desc": "Regras de negócio e casos de uso protegidos com xUnit, Moq, PHPUnit e Vitest. Deploys previsíveis e conteinerizados com Docker e esteiras de CI/CD via GitHub Actions.",
+      "pillar3Title": "Liderança Técnica & Digitalização de Processos",
+      "pillar3Desc": "Liderança técnica na unificação de 11 sistemas corporativos em workspace única no Hospital Amparo de Maria, eliminando 100% dos formulários manuais em papel com controle de acesso granular (RBAC).",
+      "educationTitle": "Formação & Certificações",
+      "educationAds": "Graduação em Análise e Desenvolvimento de Sistemas (Estácio, 2021–2023) + Técnico em Programação (SENAI)",
+      "certClaude": "Certificação Anthropic Claude 101 (2026) · Engenharia de prompts e fluxos com agentes de IA",
+      "clockTitle": "Localização & Disponibilidade",
+      "clockStatus": "Aracaju, SE · Brasil (UTC-3) · Disponível para atuação remota e híbrida"
+    },
+    "skills": {
+      "badge": "STACK & TECNOLOGIAS",
+      "heading": "Tecnologias",
+      "subheading": "Linguagens, frameworks, bancos de dados e arquitetura consolidados em produção."
+    },
+    "projects": {
+      "heading": "Projetos Reais",
+      "subheading": "Catálogo verificado de plataformas SaaS, sistemas corporativos e pacotes open source que desenvolvi e entreguei.",
+      "filterAll": "Todos os Projetos",
+      "filterFintech": "Fintech & Pagamentos",
+      "filterEnterprise": "Corporativo & Saúde",
+      "filterSaas": "Plataformas SaaS",
+      "filterOpenSource": "Open Source",
+      "viewDetails": "Ver Detalhes do Projeto",
+      "challengeTitle": "O Desafio",
+      "solutionTitle": "Decisões de Engenharia & Arquitetura",
+      "impactTitle": "Impacto & Resultados Comprovados",
+      "techStackTitle": "Tecnologias Utilizadas",
+      "viewRepo": "Código-Fonte no GitHub",
+      "closeModal": "Fechar"
+    },
+    "experience": {
+      "heading": "Trajetória Profissional",
+      "subheading": "Linha do tempo oficial de empresas, cargos, períodos e responsabilidades em produção.",
+      "present": "Presente"
+    },
+    "contact": {
+      "heading": "Entrar em Contato",
+      "subheading": "Procurando um Desenvolvedor Full Stack Sênior para posições remotas ou híbridas? Entre em contato direto por e-mail, WhatsApp ou pelo formulário abaixo.",
+      "nameLabel": "Seu Nome",
+      "emailLabel": "Seu E-mail",
+      "subjectLabel": "Assunto",
+      "messageLabel": "Sua Mensagem",
+      "sendBtn": "Enviar Mensagem",
+      "sending": "Enviando...",
+      "successTitle": "Mensagem Enviada!",
+      "successDesc": "Obrigado pelo contato! Sua mensagem foi gravada e entrarei em contato o mais breve possível.",
+      "errorTitle": "Erro no Formulário",
+      "errorDesc": "Por favor, preencha todos os campos obrigatórios.",
+      "directTitle": "Canais Diretos",
+      "copyEmail": "Copiar E-mail",
+      "copied": "Copiado para a área de transferência!",
+      "whatsapp": "Conversar no WhatsApp",
+      "scheduleCall": "Enviar E-mail Direto",
+      "sentInboxTitle": "Histórico Local de Mensagens",
+      "sentInboxEmpty": "Nenhuma mensagem registrada ainda."
+    },
+    "footer": {
+      "tagline": "Desenvolvedor Full Stack · PHP (Symfony / Laravel) · Vue.js 3 · C# .NET 8 · APIs REST & SaaS",
+      "rights": "Todos os direitos reservados.",
+      "backToTop": "Voltar ao Topo"
+    },
+    "cmd": {
+      "placeholder": "Buscar projetos, experiências, stack ou pressione ESC...",
+      "navigation": "Navegação",
+      "projects": "Projetos",
+      "actions": "Ações Rápidas",
+      "changeLang": "Mudar Idioma (PT / EN)",
+      "copyEmailAction": "Copiar Endereço de E-mail",
+      "downloadCVAction": "Baixar Currículo em PDF",
+      "noResults": "Nenhum resultado para"
+    }
+  }
+}
